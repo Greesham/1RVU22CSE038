@@ -1,0 +1,69 @@
+.shortener-container {
+  width: 90%;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #f9f9f9;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.shortener-container h2 {
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.shortener-container input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 0.6rem 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.shortener-container input:focus {
+  border: 1px solid #007bff;
+}
+
+.shortener-container button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease;
+}
+
+.shortener-container button:hover {
+  background: #0056b3;
+}
+
+.shortened-list {
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.shortened-list p {
+  font-size: 14px;
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+.shortened-list a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.shortened-list a:hover {
+  text-decoration: underline;
+}
